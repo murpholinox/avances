@@ -1,0 +1,64 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem} % Ecuaciones químicas.
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+\newcommand\myshade{85}
+\colorlet{mylinkcolor}{violet}
+\colorlet{mycitecolor}{YellowOrange}
+\colorlet{myurlcolor}{Aquamarine}
+
+\hypersetup{
+	linkcolor  = mylinkcolor!\myshade!black,
+	citecolor  = mycitecolor!\myshade!black,
+	urlcolor   = myurlcolor!\myshade!black,
+	colorlinks = true,
+}
+\author{M. C. Francisco Murphy Pérez}
+\title{Avances del proyecto: Efecto del pH en la condición decristalización sobre el daño por radiaciónen cristales de proteína}
+
+\begin{document}
+	\maketitle
+	%Por favor mándame un resumen de 3-5 cuartillas en donde indiques cuál es la importancia de tu trabajo doctoral y como lo vas a desarrollar.
+	\section{Introducción}	
+	La cristalografía de rayos X es la principal técnica experimental para obtener la estructura tridimensional de macromoléculas, en particular de las proteínas. Los rayos X usados tienen la capacidad de ionizar las moléculas que constituyen el cristal. La ionización provoca una cascada de radicales libres que en última instancia causan lo que se conoce como daño por radiación. Este se divide en específico y global. El daño específico produce cambios químicos en la proteína y se da en el siguiente orden: la reducción de átomos metálicos, la ruptura de puentes disulfuro, la decarboxilación de aminoácidos ácidos y la pérdida del grupo tiometilo de la metionina. El daño global se da por una pérdida en el orden cristalino \cite{Weik2000,Ravelli2000}. Sin cristal, no hay cristalografía de rayos X; por lo que, en general, el daño por radiación es una de las limitantes de la cristalografía de rayos X. 
+	
+	\section{Antecedentes}
+	Los efectos del daño por radiación específico se dan porque la muestra está en un estado vítreo a \SI{100}{\kelvin} y las especies químicas que son móviles a dicha temperatura son los electrones, los huecos positivos (la ausencia de electrón) y los átomos de hidrógeno \cite{Owen2012a}. 
+	
+	Por otra parte el electrón solvatado se encuentra en un equilibrio ácido base:
+	\begin{equation*}
+		\ce{e^{-}_{solv.} + H^{+} <=> H^{.}}
+	\end{equation*}
+	El radical \ce{H^.} se puede recombinar:
+	\begin{equation*}
+		\ce{2H^{.}      ->        H2}
+	\end{equation*} 
+	Se ha probado que el \ce{H2} es uno de los principales productos de la radiación \cite{Meents2010}.
+	
+	\section{Hipótesis}
+	La hipótesis es que la alta concentración de protones, es decir, bajos niveles de pH en la condición de cristalización, permitirán mitigar el daño por radiación específico, en particular el provocado por los \ce{e^{-}_{solv.}}.
+	
+	\section{Objetivo}
+	El objetivo de este proyecto es determinar el efecto del pH en la condición de cristalización de ciertas proteínas sobre el daño por radiación. En particular se tiene que:
+	\begin{enumerate}
+		\item Realizar un análisis \emph{in silico} para determinar qué proteínas son capaces de cristalizar en un intervalo de pH amplio.
+		\item Cristalizar las proteínas seleccionadas a diferentes niveles de pH usando cualquiera de los sistemas de amortiguamiento que muestrean un intervalo de pH amplio
+		\item Determinar los parámetros de la colecta de datos que produzcan niveles similares o idénticos de dosis de radiación absorbida en las diferentes proteínas cristalizadas.
+		\item Realizar colectas de datos continuas y seriales en un sincrotrón.
+		\item Procesar los patrones de difracción para obtener un modelo inicial de las proteínas.
+		\item Mapear la diferencia de densidad electrónica entre colectas de datos al modelo inicial de cada proteína y realizar un análisis comparativo, en particular sobre los residuos de aminoácido que son más susceptibles al daño por radiación, para determinar las diferencias en daño por radiación a diferentes niveles de pH.
+	\end{enumerate}	
+	
+	\section{Materiales y métodos}
+	Como sistemas de estudio, inicialmente, se tiene la lisozima de clara de huevo de gallina y la proteína verde fluorescente. La primera se obtendrá de manera comercial y la segunda se purificará. Ambas han demostrado, en un análisis \emph{in silico} previo\footnote{https://murpholinox.github.io/getdatafromthePDB/}, cristalizar en un rango de pH amplio. La condición de cristalización estará dada por uno de los siete sistemas de amortiguamiento descritos en el trabajo de Newman\cite{Newman2004}, donde solo es necesario realizar mezclas en diferentes proporciones, de dos soluciones \emph{stock} con valores de pH extremos. 
+	Los parámetros de la colecta de datos para obtener una dosis comparable por colecta, se obtendrán a partir de un archivo PDB correspondiente a cada proteína, el programa \verb|raddose| \cite{Bury2018} y otros parámetros de la línea de luz sincrotrón a usar. El procesamiento de los patrones de difracción se realizará de manera automática con un script creado previamente\footnote{https://github.com/murpholinox/img2mtz}. La obtención del modelo estructural viene de una simple sustitución molecular, este modelo se afinará con \verb|phenix.refine| y \verb|coot| \cite{Liebschner2019,Emsley2010}. La diferencia positiva y negativa de densidad electrónica entre las colectas de datos, se obtendrá con el programa \verb|ridl| \cite{Bury2018a}. La comparación del daño estructural a diferentes niveles de pH, podrá indicarnos si existe algún efecto del pH sobre el daño por radiación, confirmando o descartando nuestra hipótesis. 
+	
+	\bibliographystyle{unsrt}
+	\bibliography{bib}
+\end{document}

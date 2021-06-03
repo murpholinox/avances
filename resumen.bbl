@@ -1,0 +1,70 @@
+\begin{thebibliography}{1}
+
+\bibitem{Weik2000}
+Martin Weik, Raimond~B.G. Ravelli, Gitay Kryger, Sean McSweeney, Maria~L.
+  Raves, Michal Harel, Piet Gros, Israel Silman, Jan Kroon, and Joel~L.
+  Sussman.
+\newblock {Specific chemical and structural damage to proteins produced by
+  synchrotron radiation}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 2000.
+
+\bibitem{Ravelli2000}
+Raimond~B.G. Ravelli and Sean~M. McSweeney.
+\newblock {The 'fingerprint' that X-rays can leave on structures}.
+\newblock {\em Structure}, 2000.
+
+\bibitem{Owen2012a}
+Robin~L. Owen, Danny Axford, Joanne~E. Nettleship, Raymond~J. Owens, James~I.
+  Robinson, Ann~W. Morgan, Andrew~S. Dor{\'{e}}, Guillaume Lebon,
+  Christopher~G. Tate, Elizabeth~E. Fry, Jingshan Ren, David~I. Stuart, and
+  Gwyndaf Evans.
+\newblock {Outrunning free radicals in room-temperature macromolecular
+  crystallography}.
+\newblock {\em Acta Crystallographica Section D: Biological Crystallography},
+  68(7):810--818, 2012.
+
+\bibitem{Meents2010}
+Alke Meents, Sascha Gutmann, Armin Wagner, and Clemens Schulze-Briese.
+\newblock {Origin and temperature dependence of radiation damage in biological
+  samples at cryogenic temperatures}.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  107(3):1094--1099, jan 2010.
+
+\bibitem{Newman2004}
+Janet Newman.
+\newblock {Novel buffer systems for macromolecular crystallization}.
+\newblock {\em Acta Crystallographica Section D: Biological Crystallography},
+  60(3):610--612, 2004.
+
+\bibitem{Bury2018}
+Charles~S. Bury, Jonathan~C. Brooks-Bartlett, Steven~P. Walsh, and Elspeth~F.
+  Garman.
+\newblock {Estimate your dose: RADDOSE-3D}.
+\newblock {\em Protein Science}, 27(1):217--228, jan 2018.
+
+\bibitem{Liebschner2019}
+Dorothee Liebschner, Pavel~V. Afonine, Matthew~L. Baker, G{\'{a}}bor Bunkoczi,
+  Vincent~B. Chen, Tristan~I. Croll, Bradley Hintze, Li~Wei Hung, Swati Jain,
+  Airlie~J. McCoy, Nigel~W. Moriarty, Robert~D. Oeffner, Billy~K. Poon,
+  Michael~G. Prisant, Randy~J. Read, Jane~S. Richardson, David~C. Richardson,
+  Massimo~D. Sammito, Oleg~V. Sobolev, Duncan~H. Stockwell, Thomas~C.
+  Terwilliger, Alexandre~G. Urzhumtsev, Lizbeth~L. Videau, Christopher~J.
+  Williams, and Paul~D. Adams.
+\newblock {Macromolecular structure determination using X-rays, neutrons and
+  electrons: Recent developments in Phenix}.
+\newblock {\em Acta Crystallographica Section D: Structural Biology},
+  75:861--877, 2019.
+
+\bibitem{Emsley2010}
+P.~Emsley, B.~Lohkamp, W.~G. Scott, and K.~Cowtan.
+\newblock {Features and development of Coot}.
+\newblock {\em Acta Crystallographica Section D Biological Crystallography},
+  66(4):486--501, apr 2010.
+
+\bibitem{Bury2018a}
+Charles~Simon Bury and Elspeth~Frances Garman.
+\newblock {RIDL : a tool to investigate radiation-induced density loss}.
+\newblock {\em Journal of Applied Crystallography}, 51(3):952--962, jun 2018.
+
+\end{thebibliography}
