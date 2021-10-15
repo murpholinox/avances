@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Weik2000}
 Martin Weik, Raimond~B.G. Ravelli, Gitay Kryger, Sean McSweeney, Maria~L.
@@ -31,40 +31,69 @@ Alke Meents, Sascha Gutmann, Armin Wagner, and Clemens Schulze-Briese.
 \newblock {\em Proceedings of the National Academy of Sciences},
   107(3):1094--1099, jan 2010.
 
+\bibitem{Bateman2021}
+Alex Bateman, Maria~Jesus Martin, Sandra Orchard, Michele Magrane, Rahat
+  Agivetova, Shadab Ahmad, Emanuele Alpi, Emily~H. Bowler-Barnett, Ramona
+  Britto, Borisas Bursteinas, Hema Bye-A-Jee, Ray Coetzee, Austra Cukura,
+  Alan~Da Silva, Paul Denny, Tunca Dogan, Thank~God Ebenezer, Jun Fan,
+  Leyla~Garcia Castro, Penelope Garmiri, George Georghiou, Leonardo Gonzales,
+  Emma Hatton-Ellis, Abdulrahman Hussein, Alexandr Ignatchenko, Giuseppe
+  Insana, Rizwan Ishtiaq, Petteri Jokinen, Vishal Joshi, Dushyanth Jyothi,
+  Antonia Lock, Rodrigo Lopez, Aurelien Luciani, Jie Luo, Yvonne Lussi,
+  Alistair MacDougall, Fabio Madeira, Mahdi Mahmoudy, Manuela Menchi, Alok
+  Mishra, Katie Moulang, Andrew Nightingale, Carla~Susana Oliveira, Sangya
+  Pundir, Guoying Qi, Shriya Raj, Daniel Rice, Milagros~Rodriguez Lopez, Rabie
+  Saidi, Joseph Sampson, Tony Sawford, Elena Speretta, Edward Turner, Nidhi
+  Tyagi, Preethi Vasudev, Vladimir Volynkin, Kate Warner, Xavier Watkins,
+  Rossana Zaru, Hermann Zellner, Alan Bridge, Sylvain Poux, Nicole Redaschi,
+  Lucila Aimo, Ghislaine Argoud-Puy, Andrea Auchincloss, Kristian Axelsen,
+  Parit Bansal, Delphine Baratin, Marie~Claude Blatter, Jerven Bolleman,
+  Emmanuel Boutet, Lionel Breuza, Cristina Casals-Casas, Edouard de~Castro,
+  Kamal~Chikh Echioukh, Elisabeth Coudert, Beatrice Cuche, Mikael Doche,
+  Dolnide Dornevil, Anne Estreicher, Maria~Livia Famiglietti, Marc Feuermann,
+  Elisabeth Gasteiger, Sebastien Gehant, Vivienne Gerritsen, Arnaud Gos, Nadine
+  Gruaz-Gumowski, Ursula Hinz, Chantal Hulo, Nevila Hyka-Nouspikel, Florence
+  Jungo, Guillaume Keller, Arnaud Kerhornou, Vicente Lara, Philippe {Le
+  Mercier}, Damien Lieberherr, Thierry Lombardot, Xavier Martin, Patrick
+  Masson, Anne Morgat, Teresa~Batista Neto, Salvo Paesano, Ivo Pedruzzi,
+  Sandrine Pilbout, Lucille Pourcel, Monica Pozzato, Manuela Pruess, Catherine
+  Rivoire, Christian Sigrist, Karin Sonesson, Andre Stutz, Shyamala Sundaram,
+  Michael Tognolli, Laure Verbregue, Cathy~H. Wu, Cecilia~N. Arighi, Leslie
+  Arminski, Chuming Chen, Yongxing Chen, John~S. Garavelli, Hongzhan Huang,
+  Kati Laiho, Peter McGarvey, Darren~A. Natale, Karen Ross, C.~R. Vinayaka,
+  Qinghua Wang, Yuqi Wang, Lai~Su Yeh, and Jian Zhang.
+\newblock {UniProt: The universal protein knowledgebase in 2021}.
+\newblock {\em Nucleic Acids Research}, 49(D1):D480--D489, 2021.
+
 \bibitem{Newman2004}
 Janet Newman.
 \newblock {Novel buffer systems for macromolecular crystallization}.
 \newblock {\em Acta Crystallographica Section D: Biological Crystallography},
   60(3):610--612, 2004.
 
+\bibitem{DArcy1996}
+A.~D'Arcy, C.~Elmore, M.~Stihle, and J.~E. Johnston.
+\newblock {A novel approach to crystallising proteins under oil}.
+\newblock {\em Journal of Crystal Growth}, 168(1-4):175--180, 1996.
+
+\bibitem{Svanidze2005}
+A.~V. Svanidze, S.~G. Lushnikov, and L.~A. Shuvalov.
+\newblock {Deuterated hen egg-white lysozyme crystals: Optimization of the
+  growth conditions and morphology}.
+\newblock {\em Crystallography Reports}, 50(5):789--795, sep 2005.
+
+\bibitem{Bruno2018}
+Andrew~E. Bruno, Patrick Charbonneau, Janet Newman, Edward~H. Snell, David~R.
+  So, Vincent Vanhoucke, Christopher~J. Watkins, Shawn Williams, and Julie
+  Wilson.
+\newblock {Classification of crystallization outcomes using deep convolutional
+  neural networks}.
+\newblock {\em arXiv}, (i):1--16, 2018.
+
 \bibitem{Bury2018}
 Charles~S. Bury, Jonathan~C. Brooks-Bartlett, Steven~P. Walsh, and Elspeth~F.
   Garman.
 \newblock {Estimate your dose: RADDOSE-3D}.
 \newblock {\em Protein Science}, 27(1):217--228, jan 2018.
-
-\bibitem{Liebschner2019}
-Dorothee Liebschner, Pavel~V. Afonine, Matthew~L. Baker, G{\'{a}}bor Bunkoczi,
-  Vincent~B. Chen, Tristan~I. Croll, Bradley Hintze, Li~Wei Hung, Swati Jain,
-  Airlie~J. McCoy, Nigel~W. Moriarty, Robert~D. Oeffner, Billy~K. Poon,
-  Michael~G. Prisant, Randy~J. Read, Jane~S. Richardson, David~C. Richardson,
-  Massimo~D. Sammito, Oleg~V. Sobolev, Duncan~H. Stockwell, Thomas~C.
-  Terwilliger, Alexandre~G. Urzhumtsev, Lizbeth~L. Videau, Christopher~J.
-  Williams, and Paul~D. Adams.
-\newblock {Macromolecular structure determination using X-rays, neutrons and
-  electrons: Recent developments in Phenix}.
-\newblock {\em Acta Crystallographica Section D: Structural Biology},
-  75:861--877, 2019.
-
-\bibitem{Emsley2010}
-P.~Emsley, B.~Lohkamp, W.~G. Scott, and K.~Cowtan.
-\newblock {Features and development of Coot}.
-\newblock {\em Acta Crystallographica Section D Biological Crystallography},
-  66(4):486--501, apr 2010.
-
-\bibitem{Bury2018a}
-Charles~Simon Bury and Elspeth~Frances Garman.
-\newblock {RIDL : a tool to investigate radiation-induced density loss}.
-\newblock {\em Journal of Applied Crystallography}, 51(3):952--962, jun 2018.
 
 \end{thebibliography}
