@@ -9,6 +9,7 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{cleveref}
+\usepackage{longtable}
 
 
 \newcommand\myshade{85}
@@ -28,90 +29,170 @@ cristalización sobre el daño por radiación
 en cristales de proteína}
 
 \begin{document}
-	\maketitle
-	%Por favor mándame un resumen de 3-5 cuartillas en donde indiques cuál es la importancia de tu trabajo doctoral y como lo vas a desarrollar.
-	\section{Introducción}	
-	La cristalografía de rayos X es la técnica experimental más usada para obtener la estructura tridimensional de macromoléculas, en particular de proteínas. Los rayos X usados tienen la capacidad de ionizar las moléculas que constituyen el cristal. La ionización provoca una cascada de radicales libres que en consecuencia provocan lo que se conoce como daño por radiación. Este último se puede clasificar como daño específico y daño global. El primero produce cambios químicos en la proteína y se da en el siguiente orden: la reducción de átomos metálicos, la ruptura de puentes disulfuro, la decarboxilación de aminoácidos ácidos y la pérdida del grupo tiometilo de la metionina. El daño global se da por una pérdida en el orden cristalino \cite{Weik2000,Ravelli2000}. Sin cristal, no puede haber \emph{cristalografía de rayos X}; por lo que, en general, el daño por radiación es una de las limitantes de esta técnica experimental.
+\maketitle
+%Por favor mándame un resumen de 3-5 cuartillas en donde indiques cuál es la importancia de tu trabajo doctoral y como lo vas a desarrollar.
+\section{Introducción}	
+La cristalografía de rayos-X es la técnica experimental más usada para obtener la estructura tridimensional de proteínas. Dicha técnica está basada en la difracción de rayos-X, por los electrones de los átomos que constituyen el cristal de proteína. Los rayos-X usados tienen la energía suficiente para ionizar los átomos que constituyen el cristal de proteína. La ionización provoca una cascada de radicales libres que a su vez provocan lo que se conoce como daño por radiación. El daño por raidiación se clasifica como daño específico y daño global. El primero produce cambios químicos en la proteína y se da en el siguiente orden: la reducción de átomos metálicos, la ruptura de puentes disulfuro, la descarboxilación de aminoácidos ácidos y la pérdida del grupo tiometilo de la metionina. Por otra parte, el daño global se da por una pérdida en el orden cristalino, lo que genera varias consecuencias en los datos experimentales obtenidos \cite{Weik2000,Ravelli2000}. En general, el daño por radiación es una de las limitantes de la cristalografía de rayos-X.
 	
-	\section{Antecedentes}
-	Los efectos del daño por radiación específico se dan porque la muestra está en un estado vítreo a \SI{100}{\kelvin} y las especies químicas que son móviles a dicha temperatura son los electrones, los huecos positivos (la ausencia de electrón) y los átomos de hidrógeno \cite{Owen2012a}. 
+\section{Antecedentes}
+Los efectos del daño por radiación específico se dan porque la muestra está en un estado vítreo a \SI{100}{\kelvin} y las especies químicas que son móviles a dicha temperatura son los electrones, los huecos positivos (la ausencia de electrón) y los átomos de hidrógeno \cite{Owen2012a}. 
 	
-	Por otra parte, el electrón solvatado se encuentra en un equilibrio ácido base:
-	\begin{equation*}
-		\ce{e^{-}_{solv.} + H^{+} <=> H^{.}}
-	\end{equation*}
-	El radical \ce{H^.} se puede recombinar:
-	\begin{equation*}
-		\ce{2H^{.}      ->        H2}
-	\end{equation*} 
-	Se ha comprobado que el \ce{H2} es uno de los principales productos de la radiación \cite{Meents2010}.
-	
-	\section{Hipótesis}
-	Partimos de la hipótesis de que la alta concentración de protones, es decir, bajos niveles de pH en la condición de cristalización, permitirán mitigar el daño por radiación específico, en particular el provocado por los \ce{e^{-}_{solv.}}.
-	
-	\section{Objetivo}
-	El objetivo de este proyecto es determinar el efecto del pH en la condición de cristalización de ciertas proteínas sobre el daño por radiación. En particular se tiene que:
-	\begin{enumerate}
-		\item Realizar un análisis \emph{in silico} para determinar qué proteínas son capaces de cristalizar en un intervalo de pH amplio.
-		\item Cristalizar las proteínas seleccionadas a diferentes niveles de pH usando cualquiera de los sistemas de amortiguamiento que muestrean un intervalo de pH amplio
-		\item Determinar los parámetros de la colecta de datos que produzcan niveles similares, o idénticos, de dosis de radiación absorbida en las diferentes proteínas cristalizadas.
-		\item Realizar colectas de datos continuas y seriales en un sincrotrón.
-		\item Procesar los patrones de difracción para obtener un modelo inicial de las proteínas.
-		\item Mapear la diferencia de densidad electrónica entre colectas de datos al modelo inicial de cada proteína y realizar un análisis comparativo, en particular sobre los residuos de aminoácido que son más susceptibles al daño por radiación, para determinar las diferencias en daño por radiación a diferentes niveles de pH.
-	\end{enumerate}	
-	
-	\section{Resultados}
-	\begin{enumerate}
-		\item Del análisis \emph{in silico} para determinar qué proteínas son capaces de cristalizar en un intervalo de pH amplio, se obtuvieron cinco proteínas con los siguientes identificadores de \verb|uniprot| \cite{Bateman2021}: \verb|P42212|, \verb|P00698|, \verb|P00760|, \verb|P00918|, \verb|P02766|. 
-		\item  Con respecto a la cristalización de las proteínas seleccionadas$\ldots$ 
-		\begin{itemize}
-		\item Se han puesto condiciones de cristalización con la lisozima (\verb|P00698|) y la tripsina (\verb|P00760|). Ambas conseguidas de manera comercial y sin procedimientos posteriores de purificación. 
-		
-		\item De los sistemas de amortiguadores de capacidad extendida desarrollados por Newman \cite{Newman2004}, se utilizó la primera condición de cristalización (denominada de ahora en adelante, C1): ácido succínico, glicina y sodio dihidrógeno fosfato monohidratado a una concentración de \SI{250}{\milli\Molar}. 
-		
-		\item Se realizaron experimentos de cristalización con la técnica modificada de \emph{microbatch}, propuesta por D'Arcy \emph{et al.} \cite{DArcy1996}. En estos experimentos, se varió la concentración de la proteína (15 o \SI{30}{\milli\gram\per\milli\liter}); la proporción entre aceites de parafina y silicona (1:0, 1:0.5, 1:1, 1:2 y 1:4); el pH (10, 9.5, 9.0, $\ldots$, 4.5) y finalmente, también se cambió el porcentaje de cloruro de sodio (0, 3 y \SI{6}{\percent} p/v) en la condición de cristalización. Esto debido a que, en ciertas condiciones, se ha observado una dependencia del tamaño de los cristales de lisozima obtenidos con respecto a la concentración de cloruro de sodio \cite{Svanidze2005}. Se usaron placas de cristalización de Terasaki Greiner de \num{72} pozos. Esto permite tres corridas de pH, con tres porcentajes de cloruro de sodio por duplicado. Cabe destacar que en cada placa la proporción de aceites es diferente. En total, se tienen \num{720} experimentos (\num{1440}, tomando en cuenta los duplicados). Esto último, tiene que ver con la reproducibilidad de los resultados de los experimentos de cristalización, pues no siempre son idénticos.
-		
-		\item Para clasificar los resultados de cristalización, se usó un esquema de clasificación modificado a partir del esquema de Bruno \emph{et al.} \cite{Bruno2018}. La clasifiación es la siguiente: 1 (cristales), 0.5 (cristales pequeños), 0 (gota clara), -1 (precipitado) y -2 (otros). Se tomaron tres fotos con una cámara USB acoplada a un microscopio óptico en los días quinto, noveno y décimosexto. Esto significa que se visualizaron y clasificaron \num{4320} fotos. Los resultados se definieron como positivos si se presentan cristales, en al menos uno de los dos experimentos, en los siguientes valores de pH 10, 9, 7.5, 5.0 y 4.5; de lo contrario, se consideran como resultados negativos. Para la tripsina, por lo menos al momento del día de la tercera foto, todos los resultados fueron negativos. Los resultados positivos para la lisozima se resumen a continuación.
-		
-		
-		\begin{table}[h]
-			\centering
-			\begin{tabular}{@{}llll@{}}
-				\toprule
-				Proteína & Concentración & \% p/v NaCl & AP:AS \\ \midrule
-				Lisozima & 15 & 3 & 1:1 \\
-				Lisozima & 15 & 3 & 1:4 \\
-				Lisozima & 15 & 6 & 1:4 \\
-				Lisozima & 30 & 3 & 1:1 \\
-				Lisozima & 30 & 6 & 1:1 \\
-				Lisozima & 30 & 3 & 1:2 \\
-				Lisozima & 30 & 6 & 1:2 \\
-				Lisozima & 30 & 3 & 1:4 \\
-				Lisozima & 30 & 6 & 1:4 \\ \bottomrule
-			\end{tabular}
-			\caption{Condiciones de cristalización exitosas para la lisozima. AP y AS significan aceite de parafina y silicona, respectivamente.}
-			\label{tab:my-table}
-		\end{table}
-	\end{itemize}
+Por otra parte, el electrón solvatado se encuentra en un equilibrio ácido base:
+\begin{equation*}
+\ce{e^{-}_{solv.} + H^{+} <=> H^{.}}
+\end{equation*}
 
-	\item Con respecto a determinar los parámetros de la colecta de datos que produzcan niveles similares, o idénticos, de dosis de radiación absorbida, se escribió un programa en el lenguaje de programación \verb|bash| que permite obtener la dosis de radiación absorbida,  calculada por \verb|raddose| \cite{Bury2018}. Por simplicidad, se determinó un cristal hipotético de lisozima cúbico, con un volumen de \SI{1000000}{\cubic\angstrom}. Este presenta la misma composición atómica que la entrada \verb|1iee| del \verb|PDB|. También por simplicidad, el haz de rayos X se definió como colimado, con un corte de \num{100} x  \SI{100}{\micro\meter}, abarcando el área completa del cristal y un tiempo total de exposición de \SI{100}{\second}, con la obtención de un patrón de difracción por segundo. Dicho programa muestrea un flujo de fotones de 1.0 a \SI{100e11}{fotones\per\second} con un paso d \SI{0.1}{fotones\per\second} y una energía de 10.0 a \SI{17.2}{\kilo\electronvolt} con un paso de \SI{0.2}{\kilo\electronvolt}. Se obtuvo acceso al clúster \verb|groc| del grupo de genómica computacional del Instituto de Biotecnología de la UNAM\footnote{\url{https://biocomputo.ibt.unam.mx/}.}para correr dicho programa. Cabe aclarar que si bien los parámetros experimentales dados son idóneos, el fin de este programa es tener un estimado de la dosis por radiación absorbida en un sincrotrón de tercera generacion. Por otra parte, este primer programa sienta las bases para cualquier programa posterior en el que se necesite adaptar los parámetros experimentales a la realidad.
-	 
-	\item Con respecto a las colectas de datos, como primer acercamiento, se llevaron cinco\footnote{Crecidos a pH 10 (dos), 7.5 (uno) y 4.5 (dos).} cristales de lisozima al Laboratorio Nacional de Estructura de Macromoléculas (LANEM) del Instituto de Química (IQ) de la UNAM el 20 de mayo del presente año. En el LANEM-IQ, se tiene acceso a un generador de rayos X \verb|MicroMax-007 HF| de \verb|Rigaku|\footnote{\url{https://www.rigaku.com/products/sources/mm007}}. Hasta el momento, el único dato del que se tiene conocimiento es que la difracción de al menos uno de los cristales era mejor que \SI{1.6}{\angstrom}. 
-	\end{enumerate}
-	 
- 	\section{Perspectivas}
- 	
- 	\subsection{Tripsina}
- 	Los resultados negativos con la tripsina podrían ser por: (\emph{i}) la concentración del agente precipitante, de la proteína o de ambas es muy baja. O (\emph{ii}) la nucleación y en consecuencia la formación de cristales es menor, comparada con la de la lisozima. Es necesario, tomar una última ronda de fotos de las placas de cristalización de tripsina para descartar o confirmar la segunda razón. De igual manera, para descartar o confirmar la primera razón, es necesario poner nuevas condiciones de cristalización con mayor concentración de proteína, de agente precipitante o de ambos y además utilizar los otros sistemas de amortiguadores de capacidad extendida.
- 	
- 	\subsection{Lisozima}
- 	Si bien no se tienen todos los detalles de los experimentos de difracción en el ánodo rotatorio del LANEM-IQ, lo que se sabe con certeza es que al menos unos de los cristales difractados era de buena calidad. Aunado al número de condiciones exitosas para la formación de cristales, esto implica que no es necesario muestrear más condiciones para la cristalización de esta proteína; sino replicar las condiciones que se encontraron.
- 	
- 	\subsection{Dosis de radiación}
- 	Los resultados del programa para determinar la dosis de radiación en un sincrotrón de tercera generación, muestreando múltiples flujos de fotones y energías, no se han obtenido. Debido a esto, se realizó una estimación de la dosis de radiación absorbida para un cristal de lisozima hipotético\footnote{Con las mismas características, que el mencionado en el texto principal.}, bajo las condiciones del ánodo rotatorio del LANEM-IQ. Suponiendo una exposición de un segundo por cada patrón de difracción y rotando el cristal cien grados para obtener cien patrones de difracción, se obtiene una dosis promedio de radiación absorbida de \SI{0.000132}{\mega\gray}. Si se cambia el tiempo total de exposición de \SI{100}{\second} a \SI{1000}{\second}, se obtiene como resultado un aumento en la dosis por un factor de diez. Esto significa que se necesitarían cerca de mil colectas idénticas para alcanzar una dosis promedio de \SI{1.3}{\mega\gray} o \SI{13}{\mega\gray}, dependiendo del tiempo de exposición selecccionado. Suponiendo la ausencia de tiempos muertos entre colectas, la colecta de un cristal de lisozima tardaría aproximadamente 11.5 días en el LANEM-IQ. Si queremos difractar tres cristales crecidos a tres valores de pH (10, 7.5 y 4.5), es decir, nueve experimentos, esto resulta en un tiempo de uso cerca de 100 días. Demasiado tiempo, comparado con una colecta en un sincrotrón de tercera generación.
-	 
-	  %El procesamiento de los patrones de difracción se realizará de manera automática con un script creado previamente\footnote{https://github.com/murpholinox/img2mtz}. La obtención del modelo estructural viene de una simple sustitución molecular, este modelo se afinará con \verb|phenix.refine| y \verb|coot| \cite{Liebschner2019,Emsley2010}. La diferencia positiva y negativa de densidad electrónica entre las colectas de datos, se obtendrá con el programa \verb|ridl| \cite{Bury2018a}. La comparación del daño estructural a diferentes niveles de pH, podrá indicarnos si existe algún efecto del pH sobre el daño por radiación, confirmando o descartando nuestra hipótesis.
+El radical \ce{H^.} se puede recombinar:
+\begin{equation*}
+\ce{2H^{.}      ->        H2}
+\end{equation*} 
+Se ha comprobado que el \ce{H2} es uno de los principales productos de la radiación \cite{Meents2010}.
 	
-	\bibliographystyle{unsrt}
-	\bibliography{bib}
+\section{Hipótesis}
+La alta concentración de protones, es decir, bajos niveles de pH en la condición de cristalización, permitirán mitigar el daño por radiación específico, en particular el provocado por los \ce{e^{-}_{solv.}}.
+	
+\section{Objetivo}
+El objetivo de este proyecto es determinar el efecto del pH en la condición de cristalización de ciertas proteínas sobre el daño por radiación. En particular se tiene que:
+
+\begin{enumerate}
+\item Realizar un análisis \emph{in silico} para determinar qué proteínas son capaces de cristalizar en un intervalo de pH amplio.
+\item Cristalizar las proteínas seleccionadas a diferentes niveles de pH usando cualquiera de los sistemas de amortiguamiento que muestrean un intervalo de pH amplio
+\item Determinar los parámetros de la colecta de datos que produzcan niveles similares, o idénticos, de dosis de radiación absorbida en las diferentes proteínas cristalizadas.
+\item Realizar colectas de datos idénticas y continuas para cada cristal en un sincrotrón.
+\item Procesar los patrones de difracción para obtener un modelo inicial de las proteínas en estado vítreo.
+\item Mapear la diferencia de densidad electrónica entre colectas de datos al modelo inicial de cada proteína y realizar un análisis comparativo, en particular sobre los residuos de aminoácido que son más susceptibles al daño por radiación, para determinar las diferencias en daño por radiación a diferentes niveles de pH.
+\end{enumerate}	
+	
+\section{Resultados}
+\subsection{Proteínas capaces de cristalizar a diferentes valores de pH}
+Se rehizo el análisis \emph{in silico} para determinar qué proteínas son capaces de cristalizar en un intervalo de pH amplio (código \href{https://github.com/murpholinox/lap_book}{en este enlace}). 
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Identificador & Grupo espacial & Intervalo de pH & Organismo         & Proteína                   \\ \midrule
+P42212        & P 21 21 21     & 7               & \emph{Aequorea victoria} & Green fluorescent protein  \\
+P01116        & P 21 21 21     & 6.5             & \emph{Homo sapiens}      & GTPase Kras                \\
+P00760        & P 31 2 1       & 6.15            & \emph{Bos taurus}        & Serine protease 1          \\
+P00918        & P 1 21 1       & 5.9             & \emph{Homo sapiens}      & Carbonic anhydrase 2       \\
+P00698        & P 43 21 2      & 5.5             & \emph{Gallus gallus}     & Lysozyme C                 \\
+P00772        & P 21 21 21     & 5.4             & \emph{Sus scrofa}        & Chymotrypsin-like elastase \\
+P02766        & P 21 21 2      & 5               & \emph{Homo sapiens}      & Transthyretin              \\
+P00760        & P 21 21 21     & 4.5             & \emph{Bos taurus}        & Serine protease 1          \\ \bottomrule
+\end{tabular}%
+}
+\caption{Proteínas capaces de cristalizar en un intervalo de pH amplio.}
+\label{tab:lap}
+\end{table}
+\subsection{Cristalización de proteínas}
+Hasta el momento se han puesto pruebas de cristalización con lisozima y tripsina; ambas conseguidas de manera comercial y sin procedimientos posteriores de purificación (número de catálogo \verb|L6876| y \verb|T8003|, respectivamente). También se pusieron pruebas con las proteínas ornitina descarboxilasa 1 y 2 (ODC1/2) y con la variante de la proteína verde fluorescente denominada PF17-8. Las primeras dos en colaboración con el M. C. Aldo Emmanuel Pérez Rivera y la tercera en colaboración con el Dr. Victor Rivelino Juárez González. 
+
+De los siguientes sistemas de amortiguadores de capacidad extendida, desarrollados por Newman \cite{Newman2004}, se utilizaron los siguientes: 
+\begin{itemize}
+\item Sistema uno (S01); ácido succínico, glicina y sodio dihidrógeno fosfato monohidratado.
+\item Sistema dos (S02); ácido cítrico, HEPES y CHES.
+\item Sistema cuatro (S04); propionato de sodio, cacodilato de sodio trihidratado, BIS-TRIS propano.
+\item Sistema seis (S06); ácido L-málico, MES y TRIS.
+\end{itemize}
+Todos a una concentración de \SI{250}{\milli\Molar} (\SI{125}{\milli\Molar}, en la gota de cristalización) y con \SI{3}{\percent} peso/volumen de cloruro de sodio como agente precipitante. 
+		
+Las pruebas de cristalización se realizaron por medio de la técnica modificada de \emph{microbatch}, propuesta por D'Arcy \emph{et al.} \cite{DArcy1996}. En estos experimentos, se varió la concentración de la proteína (15 o \SI{30}{\milli\gram\per\milli\liter}) y/o la proporción entre aceites de parafina y silicona (1:0.5, 1:1, 1:2) y el pH (10, 9.5, 9.0, $\ldots$, 4.5). Se usaron placas de cristalización de Terasaki Greiner de \num{72} pozos que permiten poner tres corridas de pH (triplicado), por sistema de amortiguamiento (dos por placa). Cabe destacar que en cada placa la proporción de aceites es diferente. En total, se pusieron \num{28} placas como se detalla en los siguientes cuadros. Finalmente, estas placas se mantuvieron a \SI{18}{\degreeCelsius}.
+				
+\begin{table}[h]
+\centering
+\resizebox{0.8\columnwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Placa & Proteína & Conc. (\si{\milli\gram\per\milli\liter}) & PO:SO & Sistemas \\
+\midrule
+1      & tripsina & 50            & 1:0.5 & S01, S06 \\
+2      & tripsina & 50            & 1:1   & S01, S06 \\
+3      & tripsina & 50            & 1:2   & S01, S06 \\
+4      & lisozima & 30            & 1:0.5 & S01, S06 \\
+5      & lisozima & 30            & 1:1   & S01, S06 \\
+6      & lisozima & 30            & 1:2   & S01, S06 \\
+7      & tripsina & 50            & 1:0.5 & S02, S04 \\
+8      & tripsina & 50            & 1:1   & S02, S04 \\
+9      & tripsina & 50            & 1:2   & S02, S04 \\
+10     & lisozima & 30            & 1:0.5 & S02, S04 \\
+11     & lisozima & 30            & 1:1   & S02, S04 \\
+12     & lisozima & 30            & 1:2   & S02, S04 \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Pruebas de cristalización de lisozima y tripsina. Gotas de \SI{4}{\micro\liter}.}
+\label{tab:crislisoytrip}
+\end{table}		
+			
+\begin{table}[h]
+\centering
+\resizebox{0.8\columnwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Placa & Proteína & Conc. (\si{\milli\gram\per\milli\liter}) & PO:SO & Sistemas \\
+\midrule
+13 & ODC2 & 38  & 1:0.5 & S01, S06 \\
+14 & ODC2 & 38  & 1:0.5 & S02, S04 \\
+15 & ODC1 & 2.1 & 1:0.5 & S01, S06 \\
+16 & ODC1 & 2.1 & 1:0.5 & S02, S04 \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Pruebas de cristalización de ODC1 y ODC2. Gotas de \SI{4}{\micro\liter}. }
+\label{tab:crisodcs}
+\end{table}	
+		
+\begin{table}[h]
+\centering
+\resizebox{0.8\columnwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Placa & Proteína & Conc. (\si{\milli\gram\per\milli\liter}) & PO:SO & Sistemas \\
+\midrule
+19 & PF17-8 & 4.8  & 1:1 & S01, S06 \\
+20 & PF17-8 & 4.8  & 1:2 & S02, S04 \\
+21 & PF17-8 & 4.8  & 1:1 & S01, S06 \\
+22 & PF17-8 & 4.8  & 1:2 & S02, S04 \\
+23 & PF17-8 & 12.9 & 1:1 & S01, S06 \\
+24 & PF17-8 & 12.9 & 1:2 & S02, S04 \\
+25 & PF17-8 & 12.9 & 1:1 & S01, S06 \\
+26 & PF17-8 & 12.9 & 1:2 & S02, S04 \\
+27 & PF17-8 & 30   & 1:1 & S02, S04 \\
+28 & PF17-8 & 30   & 1:1 & S01, S06 \\
+29 & PF17-8 & 30   & 1:2 & S02, S04 \\
+30 & PF17-8 & 30   & 1:2 & S01, S06 \\
+\bottomrule
+\end{tabular}%
+}
+\caption{Pruebas de cristalización de PF17-8. Gotas de \SI{4}{\micro\liter}.}
+\label{tab:crispf178}
+\end{table}
+
+Además se pusieron 2 placas con más pruebas de cristalización, con la técnica conocida como gota colgante, en cajas de cristalización de 24 pozos. Las pruebas en este aspecto, tenían dos sentidos; primero, tratar de reproducir las condiciones en las que se sabe que la lisozima genera cristales en los valores de pH extremos y segundo, ver la diferencia en temperatura. El sistema de amortiguamiento usado fue el sistema cuatro (S04), la disposición de las condiciones de cristalización en ambas cajas fue la siguiente: cada fila contiene los siguientes valores de pH, \num{4}, \num{4.5}, \num{5}, \num{8.5}, \num{9} y \num{9.5}; por otra parte, cada fila tiene una mezcla de aceites de parafina y silicona diferentes (en un intento por reproducir las condiciones de los experimentos de cristalización de \emph{microbatch}). Una de las placas se mantuvo a \SI{18}{\degreeCelsius} y la otra a \SI{4}{\degreeCelsius}. 
+
+\subsection{Resultados de cristalización}
+Se tomaron fotos con una cámara USB acoplada a un microscopio óptico cada diez días, hasta cuarenta días. Hasta el momento se han tomado 16 sesiones de fotos y restan cinco sesiones. El esquema de clasificación usado anteriormente; se cambió, por simplicidad, con el siguiente esquema: cristales bien definidos, posibles cristales, sin cristales.
+\begin{enumerate}
+	\item Las pruebas de cristalización de tripsina han dado cristales bien definidos solo en el sistema uno y a valores bajos de pH. Hasta el momento se tienen diez cristales a un pH de: 4.5 (1), 5 (6) y 5.5 (3). La mayor parte de los cristales presentan una morfología planar en forma de rombo.
+	\item Las pruebas de cristalización de lisozima han dado cristales bien definidos en la mayoría de los sistemas (uno, cuatro y seis); sin embargo, el sistema donde se generan más cristales, en promedio, es el sistema cuatro. En particular, hasta diez de los doce pozos pueden presentar resultados favorables. Los cristales aparecen en múltiples formas; cúbicos, hexagonales o romboides.  
+	\item Las pruebas de cristalización de ODC1 fueron negativas en su totalidad. Con respecto a ODC2, parece haber cristales en el sistema uno a valores medios de pH. Hasta el momento se tienen cinco posibles cristales a un pH de: \num{6.5} (\num{1}), \num{7.5} (\num{3}) y \num{9.5} (\num{1}). El cristal a pH 6.5 es el único en el sistema seis.
+	\item Las pruebas de cristalización de PF17-8 han producido seis cristales. Uno a pH \num{5} en el sistema uno; uno a pH \num{5} y otro a pH \num{7} en el sistema dos; y finalmente, uno a pH \num{4.5} y dos a pH \num{7.5}. Estos cristales no presentan una morfología tan regular, a comparación de los de lisozima, pero ya se ha comprabado que son cristales de proteína.
+\end{enumerate}
+
+\subsection{Afinamiento de las estructuras obtenidas}
+Con respecto a las colectas de datos realizadas el 21 de julio, como primer acercamiento, se llevaron cinco\footnote{Crecidos a pH 10 (dos), 7.5 (uno) y 4.5 (dos).} cristales de lisozima al Laboratorio Nacional de Estructura de Macromoléculas (LANEM) del Instituto de Química (IQ) de la UNAM el 20 de mayo del presente año. En el LANEM-IQ, se tiene acceso a un generador de rayos X \verb|MicroMax-007 HF| de \verb|Rigaku|\footnote{\url{https://www.rigaku.com/products/sources/mm007}}. Hasta el momento, el único dato del que se tiene conocimiento es que la difracción de al menos uno de los cristales era mejor que \SI{1.6}{\angstrom}. 
+	 
+\section{Perspectivas}
+ 	
+\subsection{Tripsina}
+
+\subsection{Lisozima}
+ 	
+\subsection{Dosis de radiación}
+	 
+%El procesamiento de los patrones de difracción se realizará de manera automática con un script creado previamente\footnote{https://github.com/murpholinox/img2mtz}. La obtención del modelo estructural viene de una simple sustitución molecular, este modelo se afinará con \verb|phenix.refine| y \verb|coot| \cite{Liebschner2019,Emsley2010}. La diferencia positiva y negativa de densidad electrónica entre las colectas de datos, se obtendrá con el programa \verb|ridl| \cite{Bury2018a}. La comparación del daño estructural a diferentes niveles de pH, podrá indicarnos si existe algún efecto del pH sobre el daño por radiación, confirmando o descartando nuestra hipótesis.
+	
+\bibliographystyle{unsrt}
+\bibliography{library}
 \end{document}
