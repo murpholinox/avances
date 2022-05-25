@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2021)
+This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: resumen.aux
 The style file: unsrt.bst
-Database file #1: bib.bib
-Warning--there's a number but no volume in Bruno2018
-You've used 10 entries,
+Database file #1: library.bib
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            523 strings with 8558 characters,
-and the built_in function-call counts, 4341 in all, are:
-= -- 216
-> -- 562
+            493 strings with 4979 characters,
+and the built_in function-call counts, 1771 in all, are:
+= -- 145
+> -- 113
 < -- 0
-+ -- 191
-- -- 181
-* -- 502
-:= -- 845
-add.period$ -- 30
-call.type$ -- 10
-change.case$ -- 10
++ -- 40
+- -- 34
+* -- 178
+:= -- 299
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 88
-empty$ -- 222
-format.name$ -- 181
-if$ -- 803
+cite$ -- 6
+duplicate$ -- 54
+empty$ -- 147
+format.name$ -- 34
+if$ -- 359
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 10
-newline$ -- 53
-num.names$ -- 10
-pop$ -- 15
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 6
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 28
+skip$ -- 19
 stack$ -- 0
-substring$ -- 203
-swap$ -- 10
+substring$ -- 156
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 26
-width$ -- 12
-write$ -- 110
-(There was 1 warning)
+warning$ -- 0
+while$ -- 18
+width$ -- 7
+write$ -- 68
