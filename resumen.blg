@@ -1,38 +1,38 @@
 This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: resumen.aux
-The style file: unsrt.bst
+The style file: unsrt85.bst
 Database file #1: library.bib
 You've used 6 entries,
-            1791 wiz_defined-function locations,
-            493 strings with 4979 characters,
-and the built_in function-call counts, 1771 in all, are:
-= -- 145
-> -- 113
+            1832 wiz_defined-function locations,
+            498 strings with 4998 characters,
+and the built_in function-call counts, 1692 in all, are:
+= -- 163
+> -- 81
 < -- 0
-+ -- 40
-- -- 34
-* -- 178
-:= -- 299
++ -- 38
+- -- 19
+* -- 146
+:= -- 258
 add.period$ -- 18
 call.type$ -- 6
 change.case$ -- 6
 chr.to.int$ -- 0
 cite$ -- 6
-duplicate$ -- 54
+duplicate$ -- 59
 empty$ -- 147
-format.name$ -- 34
-if$ -- 359
+format.name$ -- 24
+if$ -- 360
 int.to.chr$ -- 0
 int.to.str$ -- 6
 missing$ -- 6
 newline$ -- 33
 num.names$ -- 6
-pop$ -- 6
+pop$ -- 18
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 19
+skip$ -- 36
 stack$ -- 0
 substring$ -- 156
 swap$ -- 6
