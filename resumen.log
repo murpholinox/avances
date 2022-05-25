@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.8)  25 MAY 2022 12:40
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.8)  25 MAY 2022 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,40 +522,19 @@ LaTeX Info: Redefining \nameref on input line 31.
 \@outlinefile=\write3
 \openout3 = `resumen.out'.
 
-
-Overfull \hbox (123.19687pt too wide) in paragraph at lines 35--36
-\T1/lmr/m/n/10.95 [[],
- []
-
-
-Overfull \hbox (336.79707pt too wide) in paragraph at lines 38--39
-\T1/lmr/m/n/10.95 y los áto-mos de hi-dró-geno [[]]. 
- []
-
-[1
+ [1
 
 ] [2]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
 9.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3]
-Overfull \hbox (135.41092pt too wide) in paragraph at lines 100--101
-\T1/lmr/m/n/10.95 ca-da de \T1/lmr/m/it/10.95 mi-cro-batch\T1/lmr/m/n/10.95 , p
-ro-pues-ta por D'Arcy \T1/lmr/m/it/10.95 et al. \T1/lmr/m/n/10.95 [[]].
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6] [7] (./resumen.bbl
+[4] [5] [6] [7] (./resumen.bbl
 Missing character: There is no ‘ ("2018) in font ec-lmr10!
 [8]) [9] (./resumen.aux
 LaTeX Info: Redefining \. on input line 28.
