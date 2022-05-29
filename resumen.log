@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.8)  25 MAY 2022 12:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.8)  27 MAY 2022 08:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,9 +540,6 @@ Missing character: There is no ‘ ("2018) in font ec-lmr10!
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `resumen.out' has not changed.
 (rerunfilecheck)             Checksum: BE2FAE38DDA9E761CE72E49490536486;2398.
  ) 
